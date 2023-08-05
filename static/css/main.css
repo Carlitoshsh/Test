@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f7dce4;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../images/pattern.png');
+    background-size: contain;
+    background-repeat: repeat;
+    opacity: 0.4;
+    /* Adjust the opacity as desired */
+    z-index: 1;
+    /* Place the image behind the content */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.kuromi {
+    width: 150px;
+    height: 150px;
+    background-image: url('./../images/kuromi1.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+.kuromi2 {
+    width: 150px;
+    height: 175px;
+    background-image: url('./../images/kuromi2.png');
+    background-size: contain;
+    display: inline-block;
+}
+
+.happy-birthday {
+    color: #3a3d36;
+    background: #eea8ba;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
