@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 .background-container {
   position: relative;
   width: 100%;

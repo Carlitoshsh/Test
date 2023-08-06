@@ -23,5 +23,10 @@
         "name": "Samsung Colombia",
         "url": "https://www.samsung.com/co/",
         "logo": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png"
+    },
+    {
+        "name":"Epic Games",
+        "url":"https://www.epicgames.com",
+        "logo":"https://www.epicgames.com/favicon.ico"
     }
 ]
