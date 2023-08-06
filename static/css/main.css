@@ -12,6 +12,8 @@ body {
   height: 100vh;
   background-color: #f7dce4;
   overflow: hidden;
+   /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
 
 .background-image {
