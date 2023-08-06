@@ -44,17 +44,20 @@ body {
 .kuromi {
   width: 150px;
   height: 150px;
-  background-image: url("./../images/kuromi1.png");
+  background-image: url("./../images/kuromi.gif");
   background-size: cover;
   display: inline-block;
+  background-repeat: no-repeat;
 }
 
 .kuromi2 {
   width: 150px;
   height: 175px;
   background-image: url("./../images/kuromi2.png");
-  background-size: contain;
+  background-size: cover;
   display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .happy-birthday {
@@ -81,10 +84,44 @@ body {
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  display: flex;
+}
+
+.grid-item-with-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #d1ecfa;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
+
+.grid-item-with-logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
 }
 
 img {
-  height: 6rem;
+  height: 12rem;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem;
+  border: 4px solid #eea8ba;
+  max-width: 10rem;
+}
+
+.link-main:hover {
+  background-color: #f7dce4;
+  text-decoration: none;
+  opacity: 0.9;
+  border-radius: 0.4rem;
 }

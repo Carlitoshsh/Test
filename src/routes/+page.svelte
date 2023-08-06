@@ -1,11 +1,10 @@
-<script>
-  function redirectToGiftPage() {
-    window.location.href = '/gift';
-  }
-</script>
 
 <div class="content">
-    <div class="kuromi"></div>
+    <a href="/coupon" class="link-main">
+      <div class="kuromi"></div>
+    </a>
     <h1 class="happy-birthday">¡Feliz Cumple SAAAAAAAM!</h1>
-    <div class="kuromi2" on:click={redirectToGiftPage}></div>
+    <a href="/gift" class="link-main">
+      <img src="/images/kuromi2.gif" alt="Kuromi">
+    </a>
 </div>

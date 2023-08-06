@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Amazon USA",
+        "url": "https://www.amazon.com",
+        "logo": "https://www.amazon.com/favicon.ico"
+    },
+    {
+        "name": "Amazon Japan",
+        "url": "https://www.amazon.co.jp",
+        "logo": "https://www.amazon.co.jp/favicon.ico"
+    },
+    {
+        "name": "Steam",
+        "url": "https://store.steampowered.com",
+        "logo": "https://store.steampowered.com/favicon.ico"
+    },
+    {
+        "name": "Papeleria Panamericana",
+        "url": "https://www.panamericana.com.co",
+        "logo": "https://www.panamericana.com.co/favicon.ico"
+    },
+    {
+        "name": "Samsung Colombia",
+        "url": "https://www.samsung.com/co/",
+        "logo": "https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/Favicon.png"
+    }
+]
