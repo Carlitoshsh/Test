@@ -16,9 +16,11 @@
   <a href="/coupon" class="link-main">
     <div class="kuromi" />
   </a>
-  <h1 class="happy-birthday" transition:fade>
-    {currentText}
-  </h1>
+  <a href="/message" class="link-main">
+    <h1 class="happy-birthday" transition:fade>
+      {currentText}
+    </h1>
+  </a>
   <a href="/gift" class="link-main">
     <img src="/images/kuromi2.gif" alt="Kuromi" />
   </a>

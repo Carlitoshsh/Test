@@ -145,3 +145,7 @@ img {
   opacity: 0.9;
   border-radius: 0.4rem;
 }
+
+a {
+  text-decoration: none;
+}
